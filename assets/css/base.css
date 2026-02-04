@@ -2,3 +2,26 @@ body{
     font-family: var(--primary-font);
     color: #333;
 }
+
+.header{
+    width: calc(100% - 40px);
+    background-color: blueviolet;
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px 28px;
+}
+
+.header .nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header .nav ul li a img{
+    margin-bottom: 3px
+}
